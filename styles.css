@@ -60,11 +60,11 @@ label {
 }
 
 .main-content {
-    background-color: #fff; /* светлый фон для основного содержимого */
+    background-color: #ffffffe0;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* тень для блока */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .footer {
