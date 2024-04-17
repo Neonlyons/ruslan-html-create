@@ -84,6 +84,7 @@ input[type=text], textarea {
     margin: 8px 0;
     box-sizing: border-box;
     border: 2.5px solid #00ad5b;
+    border-radius: 6px;
     background-color: #eefff1;
     color: #494949;
 }
