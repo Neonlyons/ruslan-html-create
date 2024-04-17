@@ -52,10 +52,7 @@ label {
 }
 
 .header {
-    background-color: #eee; /* светлый фон для заголовка */
-    padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #ddd; /* граница снизу */
 }
 
 .header h1 {
@@ -81,7 +78,7 @@ label {
 
 .footer p {
     margin: 0;
-    color: #333; /* темный текст */
+    color: #fff;
 }
 
 input[type=text], textarea {
