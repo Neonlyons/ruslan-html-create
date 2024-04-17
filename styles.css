@@ -69,11 +69,8 @@ label {
 }
 
 .footer {
-    background-color: #eee; /* светлый фон для футера */
-    padding: 10px 20px;
     text-align: center;
     margin-top: 20px;
-    border-top: 1px solid #ddd; /* граница сверху */
 }
 
 .footer p {
