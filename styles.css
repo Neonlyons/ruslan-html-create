@@ -3,9 +3,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #7c6c6c;
     color: #353535;
     font-weight: bold;
+    background: #000 url(https://leverage-experts.com/wp-content/uploads/2022/09/david-rodrigo-Fr6zexbmjmc-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: 100%;
 }
 
 .navbar {
