@@ -3,8 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #7c6c6c; /* светлый фон */
-    color: #333; /* темный текст */
+    background-color: #7c6c6c;
+    color: #353535;
+    font-weight: bold;
 }
 
 .navbar {
@@ -12,6 +13,14 @@ body {
     padding: 10px 20px;
     overflow: hidden;
     border-bottom: 1px solid #e7e7e7; /* граница снизу */
+}
+
+h3 {
+    color: #e96300;
+}
+
+label {
+    color: #005589;
 }
 
 .navbar a {
@@ -73,9 +82,9 @@ input[type=text], textarea {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid #ddd; /* граница для полей ввода */
-    background-color: #fff; /* светлый фон */
-    color: #333; /* темный текст */
+    border: 2.5px solid #00ad5b;
+    background-color: #eefff1;
+    color: #494949;
 }
 
 input[type=text], placeholder {
