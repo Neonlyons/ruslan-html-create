@@ -7,9 +7,6 @@
     <title>Генератор статических сайтов</title>
 </head>
 <body>
-    <div class="navbar">
-        <a href="#home">Главная</a>
-    </div>
     <div class="container">
         <div class="header">
             <h1>Генератор сайтов</h1>
@@ -25,7 +22,12 @@
                 <br><br>
 
                 <h2>Основные переменные</h2>
-		<p><b>Примечание!</b>Картинки должны быть следующего названия и формата: logo.webp, icon.png, room.png, back.jpg, price1.jpg, price2.jpg, img1.jpg, img2.jpg, img3.jpg, img4.jpg, img5.jpg, img6.jpg, ap1.jpg, ap2.jpg, ap3.jpg, ap4.jpg, ap5.jpg, ap6.jpg, shema.jpg, map.jpg, quiz.jpg.</p>
+		<div class="prim">
+		<p><b>Примечание!</b> Картинки должны быть следующего названия и формата:</p>
+			<p>logo.webp, icon.png, room.png, back.webp, foot.webp, price1.jpg, price2.jpg (720х1070 px)</p> 
+			<p>img1.jpg, img2.jpg, img3.jpg, img4.jpg, img5.jpg, img6.jpg (1680х940 px)</p> 
+			<p>ap1.jpg, ap2.jpg, ap3.jpg, ap4.jpg, ap5.jpg, ap6.jpg, shema.jpg, map.jpg</p>
+		</div>
                 <div id="mainVariables"></div>
 
                 <h2>Пользовательские переменные</h2>
@@ -33,10 +35,13 @@
                 <button type="button" id="addField">Добавить переменную</button>
                 <br><br>
                 <button type="submit">Сгенерировать</button>
+		<div class="prim">
+		<p>Примечание! Файл index.html необходимо переименовать в index.php</p>
+		</div>
             </form>
             <div id="downloadLink"></div>
             <div id="downloadArchive"></div>
-
+	    
             <h2>Управление файлами</h2>
             <div id="fileList"></div>
             <form id="uploadForm" enctype="multipart/form-data">
